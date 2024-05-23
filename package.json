@@ -1,9 +1,10 @@
 {
   "name": "test-admin",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "serve": "vite preview",
     "type-check": "tsc --noEmit",
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src",
@@ -29,6 +30,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.8",
     "typescript": "^5.1.6",
-    "vite": "^4.3.9"
+    "vite": "^5.2.11"
   }
 }
